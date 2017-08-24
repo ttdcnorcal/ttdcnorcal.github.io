@@ -1,0 +1,423 @@
+body {
+	background-color: #534e49;
+	color: #000;
+	font-family: "Open Sans",Helvetica,Arial,sans-serif;
+}
+.main-container {
+/*	width: 1140px;*/
+}
+#banner {
+	background-color: #352f29;
+	color: #c76135;
+	text-transform: uppercase;
+	font-size: 17px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	letter-spacing: 4px;
+	font-weight: 500;
+}
+#banner a,
+#banner a:visited {
+	color: #c76135;
+}
+.welcome-row {
+	background-color: #fff;
+}
+.welcome-heading {
+	background: url('../img/welcome-heading-bg.png') no-repeat;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.welcome-heading h2 {
+	text-transform: uppercase;
+	font-size: 32px;
+	padding-top: 135px;
+	padding-bottom: 20px;
+	letter-spacing: 2px;
+	font-weight: 600;
+	margin: 0;
+}
+.welcome-heading h1 {
+	text-transform: uppercase;
+	font-size: 51px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	letter-spacing: 4px;
+	font-weight: 300;
+	margin: 0 45px 0 45px;
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+}
+.welcome-heading h3 {
+	text-transform: uppercase;
+	font-size: 22px;
+	padding-top: 15px;
+	padding-bottom: 145px;
+	letter-spacing: 4px;
+	font-weight: 600;
+	margin: 0;
+}
+
+.picture-row .picture {
+	background-color: #fff;
+	padding-left: 0;
+}
+.img-wrapper{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 15px;
+}
+.picture-row .heading {
+	background-color: #fff;
+	/*width: 981px;*/
+	padding-right: 0;
+	padding-left: 0;
+}
+.picture-row .heading h4 {
+	background-color: #352f29;
+	font-size: 20px;
+	margin: 0 20px 15px 0;
+	color: #ffffff;
+	font-weight: 300;
+	padding: 40px 30px 32px 30px;
+	line-height: 1.8em;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+.chrome .picture-row .heading h4 {
+	padding: 37px 30px 32px 30px;
+}
+.picture-row .heading h4 .bigger {
+	font-size: 28px;
+}
+.left-sidebar {
+	background-color: #fff;
+}
+
+.contact-link {
+	padding: 0 20px 0 20px;
+}
+.contact-link a,
+.contact-link a:visited {
+	display: block;
+	background-color: #c9663b;
+	color: #fff;
+	font-size: 18px;
+	text-transform: uppercase;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	letter-spacing: 3px;
+}
+.contact-link a:hover {
+	background-color: #bcccde;
+	text-decoration: none;
+	color: #000;
+}
+
+.bio-content {
+	background-color: #bcccde;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 15px;
+	padding: 45px 30px 30px 30px;
+	font-size: 12px;
+	letter-spacing: 1.5px;
+	line-height: 2em;
+	font-weight: 600;
+}
+.bio-content h4 {
+	font-weight: 700;
+	letter-spacing: 3px;
+	margin-top: 0;
+	padding-top: 0;
+}
+.bio-content h5 {
+	text-transform: uppercase;
+	line-height: 1.8em;
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 1.5px;
+	margin-bottom: 30px;
+}
+
+.right-content {
+	background-color: #fff;
+}
+.content-wrapper {
+	margin-right: 20px;
+	margin-bottom: 15px;
+	background-color: #e8e8e8;
+	padding: 80px 80px 58px 80px;
+	font-size: 14px;
+	line-height: 2em;
+	letter-spacing: 1.5px;
+}
+.chrome .content-wrapper {
+	padding: 80px 80px 55px 80px;
+}
+.content-wrapper p {
+	margin-bottom: 30px;
+}
+
+.form-row {
+	background-color: #e8e8e8;
+	padding-top: 30px;
+	border-right: 20px solid #fff;
+	border-left: 20px solid #fff;
+	border-bottom: 15px solid #fff;
+}
+.form-row .btn-primary {
+    background-color: #c9663b;
+    border-color: #c9663b;
+    color: #fff;
+    text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.form-row .btn-primary:hover {
+	background-color: #bcccde;
+    border-color: #bcccde;
+	color: #000;
+}
+
+#footer {
+	font-size: 16px;
+	color: #fff;
+	text-transform: uppercase;
+	background: #352f29;
+	margin-top: 20px;
+	margin-bottom: 150px;
+	padding: 20px 30px 20px 30px;
+	letter-spacing: 3px;
+	font-weight: 300;
+	line-height: 1.8em;
+
+}
+
+#footer .footer-content {
+	text-align: center;	
+}
+
+
+.col-md-4,
+.col-md-8 {
+	padding:0 !important;
+}
+.copy-content {
+	padding: 0 20px 20px 20px;
+}
+.copy-content p,
+.copy-content h2 {
+	margin-bottom: 20px;
+}
+.quotemark {
+	font-size: 3.5em;
+}
+.attribution {
+	font-size: 1.2em;
+	font-style: italic;
+	margin-right: 30px;
+	float: right;
+	padding-top: 20px;
+}
+
+
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+
+
+
+
+    /*==========  Mobile First Method  ==========*/
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) {
+
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+
+    }
+
+
+
+    /*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+      /*  #footer { background-color: white;  }*/
+		.welcome-heading h3 {
+		    padding-bottom: 95px;
+		}
+		.picture-row .picture {
+		    padding-right: 0;
+		}
+		.picture-row .heading {
+			border-left: 20px solid white;
+		}
+		.picture-row .heading h4 {
+		    padding: 24px 30px 24px 32px;
+		    line-height: 1.6em;
+		}
+		.chrome .picture-row .heading h4 {
+		    padding: 22px 30px 23px 32px;
+		    line-height: 1.6em;
+		}
+		.bio-content {
+		    padding: 35px 25px 25px 25px;
+		}
+		.bio-content h4 {
+		    font-size: 16px;
+		}
+		.content-wrapper {
+		    padding: 58px 80px 71px;
+		}
+		.chrome .content-wrapper {
+		    padding: 58px 80px 44px;
+		}
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+        /* #footer { background-color: olive;  }*/
+		.quotemark {
+			font-size: 2em;
+		}
+        .welcome-heading h2 {
+		    padding-top: 85px;
+		}
+		.welcome-heading h3 {
+		    padding-bottom: 89px;
+		}
+		.picture-row .picture {
+		    padding-right: 0;
+		}
+		.picture-row .heading {
+			border-left: 0 solid white;
+		}
+		.picture-row .heading h4 {
+		    padding: 19px 30px 20px 32px;
+		    line-height: 1.6em;
+		    font-size: 16px;
+		}
+		.chrome .picture-row .heading h4 {
+		    padding: 19px 30px 18px 32px;
+
+		}
+		.picture-row .heading h4 .bigger {
+	    	font-size: 24px;
+		}
+		.left-sidebar,
+		.right-content {
+			padding-bottom: 15px !important;
+		}
+		.bio-content {
+		    margin-bottom: 0;
+		}
+		.content-wrapper,
+		.chrome .content-wrapper {
+		    margin-left: 20px;
+		    margin-bottom: 0;
+		    padding: 45px 30px 30px;
+		}
+
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+        /*#footer { background-color: yellow;  }*/
+        .welcome-heading h2 {
+		    padding-top: 85px;
+		}
+		.welcome-heading h3 {
+		    padding-bottom: 89px;
+		}
+		.picture-row .picture {
+		    padding-right: 0;
+		    text-align: center;
+		}
+		.picture-row .heading {
+			border-left: 20px solid white;
+		}
+		.picture-row .heading h4 {
+		    padding: 16px 15px 17px 15px;
+		    line-height: 1.6em;
+		    font-size: 14px;
+		}
+		.picture-row .heading h4 .bigger {
+	    	font-size: 18px;
+		}
+		.left-sidebar,
+		.right-content {
+			padding-bottom: 15px !important;
+		}
+		.bio-content {
+		    margin-bottom: 0;
+		}
+		.content-wrapper {
+		    margin-left: 20px;
+		    margin-bottom: 0;
+		    padding: 45px 30px 30px;
+		}
+
+
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+        /*#footer { background-color: blue;  }*/
+        .welcome-heading h2 {
+		    padding-top: 45px;
+		}
+		.welcome-heading h3 {
+		    padding-bottom: 70px;
+		}
+		.picture-row .picture {
+		    padding-right: 0;
+		}
+		.picture-row .heading {
+			border-left: 20px solid white;
+		}
+		.picture-row .heading h4 {
+		    padding: 16px 15px 16px 15px;
+		    line-height: 1.6em;
+		    font-size: 12px;
+		}
+		.picture-row .heading h4 .bigger {
+	    	font-size: 14px;
+		}
+		.left-sidebar,
+		.right-content {
+			padding-bottom: 15px !important;
+		}
+		.bio-content {
+		    margin-bottom: 0;
+		}
+		.content-wrapper {
+		    margin-left: 20px;
+		    margin-bottom: 0;
+		    padding: 45px 30px 30px;
+		}
+		#footer {
+			font-size: 14px;
+		}
+
+
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+        /*#footer { background-color: red;  }*/
+    }
+
