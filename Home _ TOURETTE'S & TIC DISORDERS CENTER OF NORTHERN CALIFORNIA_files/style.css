@@ -111,6 +111,7 @@ body {
 .contact-link a:hover {
 	background-color: #bcccde;
 	text-decoration: none;
+	cursor: pointer;
 	color: #000;
 }
 
