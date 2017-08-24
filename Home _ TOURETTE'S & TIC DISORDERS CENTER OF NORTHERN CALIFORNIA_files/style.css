@@ -338,6 +338,9 @@ body {
     /* Small Devices, Tablets */
     @media only screen and (max-width : 768px) {
         /*#footer { background-color: yellow;  }*/
+    .welcome-heading h1 {
+		    font-size: 36px;
+		}
         .welcome-heading h2 {
 		    padding-top: 85px;
 		}
@@ -346,6 +349,7 @@ body {
 		}
 		.picture-row .picture {
 		    padding-right: 0;
+		    padding-top:15px;
 		    text-align: center;
 		}
 		.picture-row .heading {
